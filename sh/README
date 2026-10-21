@@ -1,0 +1,5 @@
+sh
+
+You should note that the name for this configuration file will differ depending
+on the shell implementation you use and/or what is set in your ENV. Please
+rename and relocate the file accordingly.
