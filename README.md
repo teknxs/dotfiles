@@ -14,3 +14,7 @@ or
 $ cp -r lemonbar/. ~/
 ```
 
+## License
+
+All files included are licensed under the BSD Zero Clause License (0BSD). 
+Read the `LICENSE` file in the project root for more information.
