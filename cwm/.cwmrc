@@ -5,7 +5,7 @@ borderwidth 2
 gap 46 8 8 8
 
 # Terminal
-command term /usr/bin/xterm
+command term "xterm"
 
 # Enable automatic grouping (typical workspace behavior)
 sticky yes
