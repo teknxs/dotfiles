@@ -4,14 +4,16 @@ My personal dotfiles.
 
 ## Information
 
-Each top-level directory in this repository corresponds to each program. Their contents must be placed in the user's home directory. For example, assuming you are in the project root directory, you would run the following to use my dotfiles for `lemonbar`:
+Each top-level directory in this repository corresponds to each program. Their 
+contents must be placed in the user's home directory. I recommend using GNU 
+Stow as it utilizes symlinking and makes installation simpler.
+
+For instance, if you wish to install `cwm` and `lemonbar` in your user's home 
+directory, run the following command:
 
 ```sh
-$ cp -r lemonbar/. "$HOME"/
-```
-or
-```sh
-$ cp -r lemonbar/. ~/
+$ stow -t "$HOME"/ cwm lemonbar    # Without -t, installation occurs
+                                   # inside the parent directory.
 ```
 
 ## License
